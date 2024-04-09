@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "extends": ["plugin:nuxt/recommended", "plugin:vue/vue3-essential", "prettier"],
+    "ignorePatterns": ["**/public/**", "**/dist/**"],
+    "rules": 
+    {
+        "no-console": "error",
+        "no-debugger":  "error" ,
+        "no-fallthrough": "off",
+        "no-unused-vars": 2,
+        "vue/this-in-template": ["error", "never"],
+        "vue/multi-word-component-names": "off",
+        "vue/no-reserved-component-names": "off",
+    }
+}

@@ -1,0 +1,96 @@
+# Name of project
+ 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Releases](#releases)
+- [Project Structure](#project-structure)
+- [Configuration Files](#configuration-files)
+- [How to Setup](#how-to-setup)
+- [Flowcharts](#flowcharts)
+ 
+## Introduction
+ 
+Description of the project.
+ 
+## Features
+List of project features.
+ 
+## How to Setup
+ 
+1. **Clone Repository:** `git clone <repository_url>`
+2. **Navigate to src Folder:** Navigate to the src directory `cd src/`.
+3. **Install Dependencies:** Navigate to the project directory and run `npm install`.
+4. **Environment Setup:** Configure your .env file with necessary environment variables including secrets and API keys.
+ 
+```bash
+NEXTAUTH_URL=http://localhost:3000/
+NEXT_PUBLIC_URL=http://localhost:3000/
+# Additional variables below
+```
+ 
+## How to Run
+ 
+1. **Start Server:** In the project directory, run `npm run dev` to start the project.
+2. **Access Application:** Visit `http://localhost:3000` in your web browser.
+ 
+## Releases
+ 
+Link to project releases.
+ 
+## Project Structure
+ 
+### `src`
+ 
+This is the source directory where the main application code resides.
+ 
+### `app`
+ 
+A core directory of our application, which contains  subdirectories of the application's routes/pages and various components.
+ 
+### `assets`
+ 
+Contains static assets such as images and styles that can be accessed directly.
+ 
+### `components`
+ 
+Reusable UI components that are used across different parts of the application.
+ 
+### `constants`
+ 
+Contains essential constants used throughout the application.
+ 
+### `hooks`
+ 
+Contains custom React hooks for state management and side effects, which help in reusing stateful logic between components.
+ 
+### `public`
+ 
+Contains static assets that are publicly accessible
+ 
+### `services`
+ 
+Contain custom API call handlers and other services (eg. configuration for next-auth).
+ 
+### `store`
+ 
+Contains custom stores for state management
+ 
+### `utils`
+ 
+Utility functions and shared logic to assist components.
+ 
+### Configuration Files
+ 
+- `.env.local`: Local environment variables that are not committed to the repository for security reasons.
+- `eslintrc.json`: Configuration file for ESLint, used to analyze and identify potential issues or errors in JavaScript code.
+- `.prettierrc.json`: Configuration file for Prettier, used to define code formatting rules.
+- `next.config.js`: Custom configuration for Next.js features.
+- `package.json`: Lists all npm dependencies as well as scripts for building and running the application.
+- `tsconfig.json`: Configuration for Typescript, a typed superset of Javascript that compiles to plain Javascript.
+ 
+## Flowcharts
+Visual representations that depict the flow or sequence of steps involved in key features of the application.
+ 
+## Authors
+ 
+Names of engineers on this project.
